@@ -36,3 +36,5 @@ import os
 os.system('cls')
 
 circular imports
+
+__init__

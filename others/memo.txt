@@ -1,0 +1,38 @@
+@app.route('/')  # decorator
+def hello_world():
+    # return 'Hello, World!'
+    return '<h1>Hello World debug mode</h1>'
+
+
+@app.route('/about/<username>')
+def about_page(username):
+    return f'<h1>This is the abbout page of {username} </h1>'
+
+in terminal write 「set FLASK_APP=market.py」「flask run」
+turn on debug mode 「set FLASK_DEBUG=1」
+
+jinja template
+
+template inheritance
+
+DATABASE
+pp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///market.db'
+db = SQLAlchemy(app)
+
+class Item(db.Model):
+    id = db.Column(db.Integer(), primary_key=True)
+
+from market import db
+db.create_all()
+from market import Item
+for item in Item.query.all()
+...   item.name
+...   item.price
+...   item.description
+...   item.id
+...   item.barcode
+
+import os
+os.system('cls')
+
+circular imports

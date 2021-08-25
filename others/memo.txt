@@ -42,3 +42,7 @@ __init__
 Cross Site Request Forgery (CSRF)
 
 FLASH
+
+bcrypt 
+
+Getters and Setters

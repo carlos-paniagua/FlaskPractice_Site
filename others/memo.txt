@@ -39,4 +39,6 @@ circular imports
 
 __init__
 
-Cross Site Request Forgery CSRF
+Cross Site Request Forgery (CSRF)
+
+FLASH

@@ -38,3 +38,5 @@ os.system('cls')
 circular imports
 
 __init__
+
+Cross Site Request Forgery CSRF

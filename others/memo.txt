@@ -46,3 +46,8 @@ FLASH
 bcrypt 
 
 Getters and Setters
+
+fonts awesome
+
+modals
+https://getbootstrap.com/docs/4.0/components/modal/
